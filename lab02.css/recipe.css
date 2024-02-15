@@ -1,0 +1,34 @@
+h1 {
+    color: rgb(34, 87, 34);
+    background-color: beige;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, Serif;
+    margin: 10px
+}
+h2 {
+    color: rgb(97, 185, 97);
+    background-color: beige;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, Serif;
+    margin: 10px
+}
+h3 {
+    color: rgb(34, 87, 34);
+    background-color: beige;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, Serif;
+    margin: 10px
+}
+body{
+    color: rgb(97, 185, 97);
+    background-color: beige;
+    text-transform: lowercase;
+    font-family: 'Time New Roman', Times, Serif;
+    margin: 20px
+}
+p {
+    color:rgb(34, 87, 34);
+}
+a:link {
+    color:rgb(8, 222, 154)
+}
