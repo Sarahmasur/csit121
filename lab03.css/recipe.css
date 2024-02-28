@@ -34,3 +34,14 @@ a:link {
     text-transform: uppercase;
     color:rgb(153, 203, 188)
 }
+div.class1{
+    background-image: linear-gradient(green, lightgreen);
+    filter:contrast(50%);    
+}
+
+img{
+    width: 400px;
+    height: 500px;
+    border-radius: 50%;
+
+}
