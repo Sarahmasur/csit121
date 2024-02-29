@@ -1,0 +1,47 @@
+h1 {
+    color: rgb(34, 87, 34);
+    background-color: beige;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, Serif;
+    margin: 10px
+}
+h2 {
+    color: rgb(97, 185, 97);
+    background-color: beige;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, Serif;
+    margin: 10px
+}
+h3 {
+    color: rgb(34, 87, 34);
+    background-color: beige;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, Serif;
+    margin: 10px
+}
+body{
+    color: rgb(97, 185, 97);
+    background-color: beige;
+    text-transform: lowercase;
+    font-family: 'Time New Roman', Times, Serif;
+    margin: 20px
+}
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Bold', sans-serif;
+    color:rgb(34, 87, 34);
+}
+a:link {
+    text-transform: uppercase;
+    color:rgb(153, 203, 188)
+}
+div.class1{
+    background-image: linear-gradient(green, lightgreen);
+    filter:contrast(50%);    
+}
+
+img{
+    width: 400px;
+    height: 500px;
+    border-radius: 50%;
+
+}
