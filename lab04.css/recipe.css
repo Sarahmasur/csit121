@@ -1,0 +1,76 @@
+h1, h2 {
+    border: 1px solid #194164;
+    padding: 10px;
+    border-radius: 5px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #9cd4ee;
+    border: 1px solid #0b2a55;
+    border-radius: 5px;
+}
+
+header, .bottom-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.recipe-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ingredients-container, .instructions-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.ingredients, .instructions {
+    background-color: #a9d2df;
+    padding: 20px;
+    border: 1px solid #080472;
+    border-radius: 5px;
+}
+
+.ingredients img, .instructions img {
+    display: block;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+.instructions ol {
+    padding-left: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.bottom-container {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.bottom-container p {
+    font-style: italic;
+}
+
+.bottom-container a {
+    color: #6a77aa;
+    text-decoration: none;
+}
+
+.bottom-container a:hover {
+    text-decoration: underline;
+}
+p, a {
+    border: 1px solid #ccd4da;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #bfdffa;
+}
+.bottom-container a:visited {
+    color: #1727b3; /* Change the color to whatever you prefer */
+}
