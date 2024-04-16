@@ -20,3 +20,6 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #a0dce3;
 }
+.center-text {
+    text-align: center;
+}
