@@ -1,0 +1,22 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 2px solid #101093;
+    box-shadow: 0 0 10px rgba(137, 10, 10, 0.1);
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #0d0b85;
+    text-align: left;
+}
+th {
+    background-color: #07a69b;
+    border-bottom: 2px solid #a09090;
+}
+tr:nth-child(even) {
+    background-color: #64b7ac;
+}
+tr:hover {
+    background-color: #a0dce3;
+}
