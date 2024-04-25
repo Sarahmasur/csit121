@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elements Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Educational Website For Form Elements</h2>
+    </header>
+    <main>
+        <section>
+            <h3>1. Text Input</h3>
+            <h4>Please enter your name.</h4>
+            <p>Text inputs are used to collect brief text-based information such as names, email addresses, passwords, or age.</p>
+            <form id="textInputForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+        <section>
+            <h3>2. Date and time Form control</h3>
+            <h4>Please enter today's date.</h4>
+            <p>The time and date form control allows users to input both date and time.</p>
+            <form id="dateTimeForm">
+                <label for="myDate">Choose a Date:</label>
+                <input type="date" name="myDate" id="myDate">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+        <section>
+            <h3>3. Select List</h3>
+            <h4>Please select what day it is today.</h4>
+            <p>Dropdown menus allow users to choose from a list of options, making it easy to select one.</p>
+            <form id="selectListForm">
+                <label for="day">What day is it:</label>
+                <select name="day" id="day">
+                    <option value="Monday">Monday</option>
+                    <option value="Tuesday">Tuesday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thursday</option>
+                    <option value="Friday">Friday</option>
+                </select>
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+        <section>
+            <h3>4. Scrolling Text Box</h3>
+            <h4>Please type in your most favorite childhood memories in the comments box.</h4>
+            <p>Scrolling text box are great for gathering lengthier text, like comments or messages.</p>
+            <form id="scrollingTextBoxForm">
+                <label for="comments">Comments:</label>
+                <textarea name="comments" id="comments" cols="40" rows="2">Enter your comments here</textarea>
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+        <section>
+            <h3>5. Radio Buttons</h3>
+            <h4>How is your day going?</h4>
+            <p>Radio buttons allow users to select only one option from a range of choices.</p>
+            <form id="radioButtonsForm">
+                <input type="radio" id="good" name="day" value="good">
+                <label for="good">Good</label><br>
+                <input type="radio" id="bad" name="day" value="bad">
+                <label for="bad">Bad</label><br>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
+
