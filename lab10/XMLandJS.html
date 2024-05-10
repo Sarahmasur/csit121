@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page.css">
+    <title>Informational Page</title>
+    <script>
+        const person = {
+            firstName: "Sarah",
+            lastName: "Masur",
+            id: 5566,
+            fullName: function() {
+                return this.firstName + " " + this.lastName;
+            }
+        };
+    </script>
+</head>
+<body>
+    <header>
+        <h1>JS and XML!</h1>
+    </header>
+    <h3>What is XML?</h3>
+    <p>XML stands for eXtensible Markup Language. It is a markup language used to store and transport data.</p>
+    <h3>How is XML used?</h3>
+    <p>XML is used to structure, store, and transport data in a readable format.</p>
+    <h3>What does XML look like?</h3>
+    <p>Here is an example of XML:</p>
+    <div> 
+        <meeting>
+            <organizer>XML</organizer>
+            <attendee>is</attendee>
+            <subject>very</subject>
+            <date>easy</date>
+            <time>to</time>
+            <location>understand</location>
+        </meeting>        
+    </div>
+    <h3>What is JavaScript?</h3>
+    <p>JavaScript is a programming language used to create interactive and dynamic web content. It can manipulate and validate data on web pages.</p>
+    <h3>How is JavaScript related to HTML and CSS?</h3>
+    <p>JavaScript, HTML, and CSS are all essential technologies for web development. HTML defines the structure, CSS defines the presentation, and JavaScript adds interactivity and dynamic behavior.</p>
+    <h3>What are some common JavaScript elements, properties, methods, and functions?</h3>
+    <ul>
+        <li>JavaScript Functions</li>
+    </ul>
+    <p>
+        <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+            Click me to display Date and Time.
+        </button>
+    </p>
+    <p id="demo"></p>
+    <h3>Example of a JavaScript property:</h3>
+    <p>Using the <code>style</code> property to change text color:</p>
+    <button onclick="document.getElementById('colorText').style.color = 'green'">
+        Change Text Color
+    </button>
+    <p id="colorText">This text will change color.</p>
+    <h3>Example of a JavaScript method:</h3>
+    <p>
+        <button onclick="document.getElementById('fullNameDisplay').innerHTML = person.fullName()">
+            Show Full Name
+        </button>
+    </p>
+    <p id="fullNameDisplay"></p>
+    <h3>Example of a JavaScript function:</h3>
+    <p>
+        <button onclick="calculateProduct()">
+            Calculate Product of 4 and 3
+        </button>
+    </p>
+    <p id="productResult"></p>
+    <script>
+        function calculateProduct() {
+            document.getElementById('productResult').innerHTML = 'Product: ' + (4 * 3);
+        }
+    </script>
+    <p>let foods = ["Pizza", "Sushi", "Tacos", "Ice Cream"];
+            console.log(foods[0]); // Outputs Pizza
+    </p>
+    <h2>All the websites I've visited to obtain all of this information</h2>
+    <ul>
+        <li><a href="https://www.w3schools.com/java/java_variables.asp">JavaScript Webpage</a></li>
+        <li><a href="https://www.w3schools.com/js/default.asp">JavaScript Webpage</a></li>
+        <li><a href="https://www.w3schools.com/whatis/whatis_js.asp">JavaScript Webpage</a></li>
+        <li><a href="https://www.w3schools.com/html/html_scripts.asp">HTML and JavaScript</a></li>
+        <li><a href="https://www.youtube.com/watch?v=3-2Pj5hxwrw">HTML and JavaScript Youtube Video</a></li>
+        <li><a href="https://www.w3schools.com/xml/xml_whatis.asp">XML Webpage</a></li>
+        <li><a href="https://www.w3schools.com/xml/">XML Webpage</a></li>
+        <li><a href="https://www.youtube.com/watch?v=KeLiQXqVgMI">XML Youtube Video</a></li>
+    </ul>
+</body>
+</html>
+
